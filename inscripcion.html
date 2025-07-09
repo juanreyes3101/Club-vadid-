@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inscripción - Club Deportivo Vadid</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container header">
+      <img src="assets/logo/escudo.png" alt="Logo Club Vadid" class="logo">
+      <nav class="menu">
+        <a href="index.html">Inicio</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="categorias.html">Categorías</a>
+        <a href="inscripcion.html">Inscripción</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Formulario de inscripción -->
+  <section class="formulario-inscripcion">
+    <div class="container">
+      <h2>Formulario de Inscripción</h2>
+      <p>Llena los siguientes campos para recibir información acerca del Club Deportivo Vadid.</p>
+      
+      <form action="form/procesar.php" method="post" class="formulario">
+
+        <div class="form-group">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required placeholder="Juan">
+        </div>
+
+        <div class="form-group">
+          <label for="apellido">Apellido:</label>
+          <input type="text" id="apellido" name="apellido" required placeholder="Pérez">
+        </div>
+
+        <div class="form-group">
+          <label for="correo">Correo electrónico:</label>
+          <input type="email" id="correo" name="correo" required placeholder="correo@ejemplo.com">
+        </div>
+
+        <div class="form-group">
+          <label for="telefono">Número de teléfono:</label>
+          <input type="tel" id="telefono" name="telefono" required placeholder="3134565039">
+        </div>
+
+        <button type="submit" class="btn">Enviar inscripción</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer">
+      <p>&copy; 2025 Club Deportivo Vadid - Todos los derechos reservados</p>
+      <p>📱 <a href="https://instagram.com/club_vadid" target="_blank">@club_vadid</a> | 📞 313 456 5039</p>
+    </div>
+  </footer>
+
+</body>
+</html>
