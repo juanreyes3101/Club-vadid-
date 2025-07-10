@@ -9,7 +9,6 @@
 </head>
 <body>
 
-  <!-- Header -->
   <header>
     <div class="container header">
       <img src="assets/logo/escudo.png" alt="Logo Club Vadid" class="logo">
@@ -23,7 +22,6 @@
     </div>
   </header>
 
-  <!-- Formulario de inscripción -->
   <section class="formulario-inscripcion">
     <div class="container">
       <h2>Formulario de Inscripción</h2>
@@ -50,13 +48,19 @@
           <label for="telefono">Número de teléfono:</label>
           <input type="tel" id="telefono" name="telefono" required placeholder="3134565039">
         </div>
-
+      <div class="form-group"> 
+        <label for="deporte">Selecciona el deporte:</label>
+          <select name="deporte" id="deporte" required>
+          <option value="">-- Selecciona una opción --</option>
+          <option value="futbol">Fútbol</option>
+          <option value="basket">Baloncesto</option>
+          </select>
+      </div> 
         <button type="submit" class="btn">Enviar inscripción</button>
       </form>
     </div>
   </section>
 
-  <!-- Footer -->
   <footer>
     <div class="container footer">
       <p>&copy; 2025 Club Deportivo Vadid - Todos los derechos reservados</p>
