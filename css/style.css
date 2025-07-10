@@ -245,3 +245,95 @@ footer a:hover {
 .formulario button:hover {
   background-color: #e0b14f;
 }
+
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../assets/banner.jpg') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.quienes-somos {
+  padding: 60px 20px;
+  background-color: #111;
+}
+
+.quienes-somos .container h2 {
+  color: #cfa241;
+  margin-bottom: 20px;
+}
+
+.quienes-somos ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.quienes-somos ul li {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.btn-whatsapp {
+  display: inline-block;
+  background-color: #25D366;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 30px;
+  margin-top: 15px;
+  transition: background 0.3s ease;
+}
+
+.btn-whatsapp:hover {
+  background-color: #1ebe5b;
+}
+.contacto .container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+.contacto {
+  background-color: #111; /* Fondo claro para diferenciar */
+  padding: 60px 20px;
+}
+
+.contacto .container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contacto h2,
+.contacto h3 {
+  color: #cfa241; /* Dorado */
+  margin-bottom: 20px;
+}
+
+.contacto p {
+  margin-bottom: 25px;
+  line-height: 1.6;
+  color: white;
+}
+ 
+.contacto a {
+  color: white;
+}
+
+.btn-whatsapp {
+  display: inline-block;
+  background-color: #25D366;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 30px;
+  margin: 20px auto;
+  transition: background 0.3s ease;
+}
+
+.btn-whatsapp:hover {
+  background-color: #1ebe5b;
+}
